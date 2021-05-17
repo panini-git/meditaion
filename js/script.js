@@ -61,7 +61,7 @@ const app=()=>{
       song.pause();
       song.currentTime = 0;
       play.src = "../svg/play.svg";
-      video.paused();
+      video.pause();
     }
   };
   //Duration
